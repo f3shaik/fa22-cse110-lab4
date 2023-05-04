@@ -1,0 +1,2 @@
+1. The bug was that the two numbers were being treated as strings and concatenated together. 
+2. I decided to fix it by changing the code slightly by typecasting the values of num1 and num2 specifically by using Number(). This allows for result to get the vale we want.
